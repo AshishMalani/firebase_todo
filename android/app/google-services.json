@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "328393388097",
+    "project_id": "firbesinsta",
+    "storage_bucket": "firbesinsta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328393388097:android:a75f34b01b473c328c96c0",
+        "android_client_info": {
+          "package_name": "com.example.firebase_todo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328393388097-3ftffq2qoh6j4pt33c1qrq7hl0uremli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_todo",
+            "certificate_hash": "864930dc7d7e40c3bc8ccd6fc379b3ebe921ac10"
+          }
+        },
+        {
+          "client_id": "328393388097-eopqoud9jah7rqgqclr844uame3klv36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKlnPzMdYXQ7My-DeTJXo_PbsJszSCRVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328393388097-eopqoud9jah7rqgqclr844uame3klv36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
