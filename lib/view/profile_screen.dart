@@ -175,6 +175,54 @@ class _ProfileScreenState extends State<ProfileScreen>
             SizedBox(
               height: 20,
             ),
+            Container(
+              height: 50,
+              width: double.infinity,
+              child: TabBar(
+                indicatorSize: TabBarIndicatorSize.label,
+                indicatorColor: Colors.black,
+                controller: tabController,
+                tabs: [
+                  Icon(
+                    Icons.grid_view,
+                    color: Colors.black,
+                    size: 28,
+                  ),
+                  Icon(
+                    Icons.bookmark_border,
+                    color: Colors.black,
+                    size: 28,
+                  ),
+                ],
+              ),
+            ),
+            Expanded(
+              child: TabBarView(
+                controller: tabController,
+                children: [
+                  GridView.builder(
+                    itemCount: 4,
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 3,
+                      crossAxisSpacing: 5,
+                      mainAxisSpacing: 5,
+                    ),
+                    itemBuilder: (context, index) {
+                      return Container(
+                        height: 100,
+                        width: 89,
+                        decoration: BoxDecoration(
+                          color: Colors.grey,
+                        ),
+                      );
+                    },
+                  ),
+                  Center(
+                    child: Text("Saved Posts"),
+                  ),
+                ],
+              ),
+            )
           ],
         ),
       ),
