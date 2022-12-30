@@ -152,7 +152,7 @@ class _PostScreenState extends State<PostScreen> {
                                 height: 50,
                                 decoration: BoxDecoration(
                                     image: DecorationImage(
-                                      fit: BoxFit.fill,
+                                      fit: BoxFit.cover,
                                       image: NetworkImage(
                                           "${(userSnapshot.data!.data() as Map)['user_profile']}"),
                                     ),
